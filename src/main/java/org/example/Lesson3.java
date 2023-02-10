@@ -40,7 +40,7 @@ public class Lesson3 {
         webElement4.click();
 
 //Тест 2.
-// Написать комментарий к первому посту
+// Написать комментарий к первому посту на сайте "Живой журнал"
 
         try {
             Thread.sleep(10000);
@@ -76,7 +76,7 @@ public class Lesson3 {
         webElement12.click();
 
 //Тест 3.
-// Поставить лайк к первому посту
+// Поставить лайк к первому посту на сайте "Живой журнал"
 
         WebElement webElement13 = driver.findElement(By.xpath("//a[@class='post-card__link']"));
         webElement13.click();
@@ -88,7 +88,7 @@ public class Lesson3 {
         webElement15.click();
 
 //Тест 4.
-//Добавить а избронное первый пост
+//Добавить а избронное первый пост на сайте "Живой журнал"
 
         WebElement webElement5 = driver.findElement(By.xpath("//a[@class='post-card__link']"));
         webElement5.click ();

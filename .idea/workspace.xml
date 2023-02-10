@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a257de-e8c2-475b-85b7-4759a3e18cb8" name="Changes" comment="Урок 3" />
+    <list default="true" id="24a257de-e8c2-475b-85b7-4759a3e18cb8" name="Changes" comment="Урок 3 доп">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lesson3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lesson3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -73,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676042273056</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Урок 3">
+      <created>1676042440844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676042440844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Урок 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 3" />
+    <MESSAGE value="Урок 3 доп" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 3 доп" />
   </component>
 </project>
