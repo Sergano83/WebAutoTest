@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a257de-e8c2-475b-85b7-4759a3e18cb8" name="Changes" comment="Урок 3" />
+    <list default="true" id="24a257de-e8c2-475b-85b7-4759a3e18cb8" name="Changes" comment="Урок 3 доп">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ4/CalculatingAreaTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ4/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DZ4/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resourses/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson3" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -34,10 +46,19 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/учеба/Автоматизация тестирования Web UI на Java/AutoTest&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/учеба/Автоматизация тестирования Web UI на Java/AutoTest&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.2823219&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\учеба\Автоматизация тестирования Web UI на Java\WebAutoTest\src\main" />
+      <recent name="D:\учеба\Автоматизация тестирования Web UI на Java\WebAutoTest\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Triangle">
     <configuration name="Lesson3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Lesson3" />
       <module name="WebAutoTest" />
@@ -51,8 +72,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DZ4.Triangle" />
+      <module name="WebAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DZ4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DZ4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DZ4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DZ4.TriangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.pozTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DZ4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DZ4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DZ4.TriangleTest" />
+      <option name="METHOD_NAME" value="pozTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Triangle" />
+        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.TriangleTest.pozTest" />
         <item itemvalue="Application.Lesson3" />
       </list>
     </recent_temporary>
@@ -73,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676042273056</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Урок 3">
+      <created>1676042440844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676042440844</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Урок 3 доп">
+      <created>1676043077305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676043077305</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Урок 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 3" />
+    <MESSAGE value="Урок 3 доп" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 3 доп" />
   </component>
 </project>
