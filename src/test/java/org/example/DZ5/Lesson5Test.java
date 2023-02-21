@@ -19,6 +19,7 @@ public class Lesson5Test extends AbstractTest{
 
 
     @Test
+
     void authorization() throws InterruptedException {
 
         Actions search = new Actions(getDriver());
@@ -67,7 +68,7 @@ public class Lesson5Test extends AbstractTest{
     @Test
     void like(){
         try {
-            Thread.sleep(10000);
+            Thread.sleep(50000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -85,7 +86,7 @@ public class Lesson5Test extends AbstractTest{
     @Test
     void elected (){
         try {
-            Thread.sleep(10000);
+            Thread.sleep(50000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

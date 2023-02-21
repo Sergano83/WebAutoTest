@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a257de-e8c2-475b-85b7-4759a3e18cb8" name="Changes" comment="Урок 4">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DZ5/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DZ5/Lesson5Test.java" afterDir="false" />
+    <list default="true" id="24a257de-e8c2-475b-85b7-4759a3e18cb8" name="Changes" comment="Урок 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ6/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ6/CommentsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ6/ElectedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ6/LikePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ6/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DZ6/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DZ6/Lesson6Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DZ4/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ4/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lesson3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lesson3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DZ4/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DZ4/TriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DZ5/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DZ5/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DZ5/Lesson5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DZ5/Lesson5Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson4" />
+        <entry key="$PROJECT_DIR$" value="Lesson5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,21 +61,11 @@
       <recent name="D:\учеба\Автоматизация тестирования Web UI на Java\WebAutoTest\src\main" />
       <recent name="D:\учеба\Автоматизация тестирования Web UI на Java\WebAutoTest\src\test" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.DZ6" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Lesson5Test">
-    <configuration name="Lesson3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lesson3" />
-      <module name="WebAutoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Lesson6Test.comments">
     <configuration name="Lesson5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebAutoTest" />
       <extension name="coverage">
@@ -85,38 +77,6 @@
       <option name="PACKAGE_NAME" value="org.example.DZ5" />
       <option name="MAIN_CLASS_NAME" value="org.example.DZ5.Lesson5Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson5Test.comments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebAutoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.DZ5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.DZ5" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DZ5.Lesson5Test" />
-      <option name="METHOD_NAME" value="comments" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson5Test.elected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebAutoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.DZ5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.DZ5" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DZ5.Lesson5Test" />
-      <option name="METHOD_NAME" value="elected" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,13 +97,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lesson6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DZ6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DZ6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DZ6.Lesson6Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson6Test.comments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DZ6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DZ6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DZ6.Lesson6Test" />
+      <option name="METHOD_NAME" value="comments" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson6Test.loginIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DZ6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DZ6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DZ6.Lesson6Test" />
+      <option name="METHOD_NAME" value="loginIn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Lesson6Test.comments" />
+        <item itemvalue="JUnit.Lesson6Test" />
+        <item itemvalue="JUnit.Lesson6Test.loginIn" />
         <item itemvalue="JUnit.Lesson5Test" />
         <item itemvalue="JUnit.Lesson5Test.like" />
-        <item itemvalue="JUnit.Lesson5Test.elected" />
-        <item itemvalue="JUnit.Lesson5Test.comments" />
-        <item itemvalue="Application.Lesson3" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676386515578</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Урок 5">
+      <created>1676623483286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676623483286</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +216,7 @@
     <MESSAGE value="Урок 3" />
     <MESSAGE value="Урок 3 доп" />
     <MESSAGE value="Урок 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 4" />
+    <MESSAGE value="Урок 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 5" />
   </component>
 </project>
