@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.example.DZ5.AbstractTest.driver;
 
-public class AbstractTest {
+public abstract class AbstractTest {
     static WebDriver webDriver;
 
     @BeforeAll

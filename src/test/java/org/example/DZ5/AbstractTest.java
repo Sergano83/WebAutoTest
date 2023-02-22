@@ -13,8 +13,8 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.concurrent.TimeUnit;
 
-public class AbstractTest {
-    public static WebDriver driver;
+public abstract class AbstractTest {
+    public  static WebDriver driver;
 
     @BeforeAll
     static void init() {
